@@ -1,0 +1,11 @@
+{
+      "id":"主键, 分类ID",
+      "idPlaceholder":"请输入主键, 分类ID",
+      "pid":"父级id",
+      "pidPlaceholder":"请输入父级id",
+      "name":"分类名称",
+      "namePlaceholder":"请输入分类名称",
+      "addProductCategories":"添加回收产品分类表",
+      "updateProductCategories":"编辑回收产品分类表",
+      "productCategoriesDeleteTips":"确定要删除该回收产品分类表吗？"
+}

@@ -1,0 +1,16 @@
+{
+  "categoryId": "产品ID",
+  "property": "产品属性ID",
+  "state": "",
+  "sort": "",
+  "categoryIdPlaceholder": "请输入产品ID",
+  "propertyPlaceholder": "请输入产品属性ID",
+  "statePlaceholder": "请输入",
+  "sortPlaceholder": "请输入",
+  "addProductModel": "添加产品详情表",
+  "updateProductModel": "编辑产品详情表",
+  "productModelDeleteTips": "确定要删除该产品详情表吗？",
+  "categoryname": "型号名称",
+  "sort": "排序",
+  "state": "状态"
+}

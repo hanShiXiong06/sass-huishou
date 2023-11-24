@@ -1,0 +1,15 @@
+{
+  "pid": "分类id",
+  "name": "分类名称",
+  "level": "等级信息",
+  "addlevelinfo": "请选择添加分类等级",
+  "sort": "排序",
+  "prentinfo": "父级分类",
+  "addprentinfo": "请选择父级分类",
+  "pidPlaceholder": "请输入分类id",
+  "namePlaceholder": "请输入分类名称",
+  "addCategories": "添加回收产品分类表",
+  "updateCategories": "编辑回收产品分类表",
+  "categoriesDeleteTips": "确定要删除该回收产品分类表吗？",
+  "tips":"不能从低级往高级选择"
+}

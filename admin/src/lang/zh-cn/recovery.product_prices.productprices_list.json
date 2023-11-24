@@ -1,0 +1,21 @@
+{
+      "id":"价格id",
+      "idPlaceholder":"请输入价格id",
+      "skuId":"产品id",
+      "skuIdPlaceholder":"请输入产品id",
+      "modelId":"型号id",
+      "modelIdPlaceholder":"请输入型号id",
+      "xilieId":"系列id",
+      "xilieIdPlaceholder":"请输入系列id",
+      "brandId":"品牌id",
+      "brandIdPlaceholder":"请输入品牌id",
+      "typeId":"类型id",
+      "typeIdPlaceholder":"请输入类型id",
+      "price":"价格",
+      "pricePlaceholder":"请输入价格",
+      "createTime":"插入时间",
+      "createTimePlaceholder":"请输入插入时间",
+      "addProductPrices":"添加产品价格",
+      "updateProductPrices":"编辑产品价格",
+      "productPricesDeleteTips":"确定要删除该产品价格吗？"
+}

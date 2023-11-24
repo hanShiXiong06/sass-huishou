@@ -1,0 +1,23 @@
+{
+  "id": "id",
+  "idPlaceholder": "请输入id",
+  "categoryId": "产品ID",
+  "categoryIdPlaceholder": "请输入产品ID",
+  "property": "产品属性ID",
+  "propertyPlaceholder": "请输入产品属性ID",
+  "state": "状态",
+  "statePlaceholder": "请输入",
+  "createTime": "",
+  "createTimePlaceholder": "请输入",
+  "updateTime": "",
+  "updateTimePlaceholder": "请输入",
+  "sort": "排序",
+  "sortPlaceholder": "请输入",
+  "property": "机型参数",
+  "name": "型号名称",
+  "addProductModel": "添加型号",
+  "updateProductModel": "编辑产品详情",
+  "namePlaceholder": "请输入型号名称",
+  "typequery": "分类查询",
+  "productModelDeleteTips": "确定要删除该产品详情表吗？"
+}

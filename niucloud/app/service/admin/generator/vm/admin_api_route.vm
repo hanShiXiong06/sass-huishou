@@ -1,0 +1,39 @@
+<?php
+// +----------------------------------------------------------------------
+// | Niucloud-admin 企业快速开发的saas管理平台
+// +----------------------------------------------------------------------
+// | 官方网址：https://www.niucloud-admin.com
+// +----------------------------------------------------------------------
+// | niucloud团队 版权所有 开源版本可自由商用
+// +----------------------------------------------------------------------
+// | Author: Niucloud Team
+// +----------------------------------------------------------------------
+
+use think\facade\Route;
+
+use app\adminapi\middleware\AdminCheckRole;
+use app\adminapi\middleware\AdminCheckToken;
+use app\adminapi\middleware\AdminLog;
+
+/**
+ * {CLASS_COMMENT}
+ */
+Route::group('{MODULE_NAME}', function () {
+
+    /***************************************************** {NOTES}管理 ****************************************************/
+    //{NOTES}列表
+    Route::get('{ROUTE_NAME}', '{MODULE_NAME}.{UCASE_CLASS_NAME}/lists');
+    //{NOTES}详情
+    Route::get('{ROUTE_NAME}/:id', '{MODULE_NAME}.{UCASE_CLASS_NAME}/info');
+    //添加{NOTES}
+    Route::post('{ROUTE_NAME}', '{MODULE_NAME}.{UCASE_CLASS_NAME}/add');
+    //编辑{NOTES}
+    Route::put('{ROUTE_NAME}/:id', '{MODULE_NAME}.{UCASE_CLASS_NAME}/edit');
+    //删除{NOTES}
+    Route::delete('{ROUTE_NAME}/:id', '{MODULE_NAME}.{UCASE_CLASS_NAME}/del');
+
+})->middleware([
+    AdminCheckToken::class,
+    AdminCheckRole::class,
+    AdminLog::class
+]);

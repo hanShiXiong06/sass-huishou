@@ -1,0 +1,17 @@
+{
+  "id": "ID",
+  "idPlaceholder": "请输入分类ID",
+  "pid": "分类名称",
+  "pidPlaceholder": "请输入分类名称",
+  "name": "分类名称",
+  "namePlaceholder": "请输入分类名称",
+  "addProductCategories": "添加产品分类",
+  "updateCategories": "编辑产品分类",
+  "level": "分类级别",
+  "firstLevel": "一级",
+  "secondLevel": "二级",
+  "thirdLevel": "三级",
+  "fourLevel": "四级",
+  "parent_name": "父级分类",
+  "categoriesDeleteTips": "确定要删除该回收产品分类吗？"
+}
